@@ -17,7 +17,7 @@ from . import visualizer
 
 class WireframeParser(object):
     loader_workers = None
-    device = 'cuda'
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
     def __init__(self, json_data = False, 
                        visualize_image = False,
                        visualize_processed_image = False):

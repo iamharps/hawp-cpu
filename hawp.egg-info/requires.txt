@@ -1,0 +1,7 @@
+yacs
+opencv-python
+matplotlib
+scikit-image
+tqdm
+torch
+torchvision
