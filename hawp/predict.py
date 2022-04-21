@@ -74,7 +74,6 @@ if __name__ == "__main__":
     for predict, _, meta in wireframe_parser.images(args.images):
         if predict is None:
             continue
-
         if args.json_output is not None:
             predict_json = predict.jsonize()
             json_out_name = out_name(
@@ -93,3 +92,6 @@ if __name__ == "__main__":
         progress_bar.update(1)
     
     progress_bar.close()
+
+
+             

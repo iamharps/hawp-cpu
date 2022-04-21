@@ -10,6 +10,7 @@ hawp/__init__.py
 hawp/detector.py
 hawp/graph.py
 hawp/predict.py
+hawp/predict_single_image.py
 hawp/predicting.py
 hawp/solver.py
 hawp.egg-info/PKG-INFO
