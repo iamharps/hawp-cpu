@@ -17,7 +17,7 @@
 1. Install PyTorch from https://pytorch.org/get-started/locally/
 2. Install hawp to your python environment by
 ```
-pip install git+https://github.com/cherubicXN/hawp.git@pip_package
+pip install git+https://github.com/iamharps/hawp-cpu.git@pip_package
 ```
 
 ## Usage
